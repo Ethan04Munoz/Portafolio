@@ -213,17 +213,30 @@
     <br>
     <div class="trabajoscontenedor">
         <h1 class="titulotrabajo">Mario Bros en Scratch</h1>
-        <img class="mario" src="img/Mario2.png" alt="">
+        <img class="mario" id="mario" src="img/Mario2.png" alt="">
         <iframe class="marioj" src="https://scratch.mit.edu/projects/341242863/embed" allowtransparency="true" width="727" height="603" frameborder="0" scrolling="no" allowfullscreen></iframe>
-        <p class="textoexplicacion">Este es un juego de Mario Bros que hice, inspirado en el jeugo de Nintendo. El proyecto es una reinvención de otro similar hecho por Brad Games. El mio lo toma como base y añade nuevas cosas, como los contadores de monedas, hongos entre otros.
+        <p class="textoexplicacion"><br> Este es un juego de Mario Bros que hice, inspirado en el jeugo de Nintendo. El proyecto es una reinvención de otro similar hecho por Brad Games. El mio lo toma como base y añade nuevas cosas, como los contadores de monedas, hongos entre otros.
             <br>
-            <br> Presiona la bandera verde para empezar a jugar.</p>
+            <br> Presiona "Jugar" y luego la bandera verde para empezar a jugar. <br>
+            <a class="enlacesblancos" href="javascript:establecerVisibilidadImagen('mario', false)">
+                <div class="jugar">
+                    <p> Jugar</p>
+                </div>
+            </a>
+        </p>
+
+        <br/><br/>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
     <!--El scrpit invoca al js-->
     <script src="js/js.js">
     </script>
     <script src="js/calculadora.js">
     </script>
+    <script src="js/mario.js"></script>
 </body>
 
 </html>

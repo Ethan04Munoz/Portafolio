@@ -16,6 +16,9 @@
     --enlace: #2c2c2c;
     --enlacehov: #000c74;
     --enlaceshadow: #00074b;
+    --enlacesblancos: #e6e6e6;
+    --botonjugar: #0084ff;
+    --botonjugarhov: #004a8f;
 }
 
 
@@ -38,6 +41,9 @@ a los siguientes */
     --enlace: #e6e6e6;
     --enlacehov: #a2abff;
     --enlaceshadow: #4e5fff;
+    --enlacesblancos: #f7f5f5;
+    --botonjugar: #004a8f;
+    --botonjugarhov: #0084ff;
 }
 
 
