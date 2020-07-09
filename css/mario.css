@@ -1,0 +1,10 @@
+.mario {
+    position: absolute;
+    margin-top: 60px;
+    height: 550px;
+    width: 727px;
+}
+
+.marioj {
+    float: left;
+}
