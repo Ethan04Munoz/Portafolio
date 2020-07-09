@@ -1,0 +1,117 @@
+input[type=button] {
+    background-color: white;
+    border: none;
+    color: #353535;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    box-shadow: 2px 2px 2px #0077ff;
+}
+
+.textarea {
+    border: solid #0077ff 2px;
+    background: #ffffff;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 1rem;
+    margin: 6px;
+    font-size: 26px;
+    cursor: pointer;
+    width: 87.5%;
+}
+
+.calcu {
+    border-radius: 5%;
+    background-color: #ffffff;
+    padding: 20px 15px;
+    width: 30%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.ceroboton:hover {
+    box-shadow: 2px 2px 2px #df0c0c;
+}
+
+.calcucaja {
+    width: 20.5rem;
+    height: 17.5rem;
+    border: solid 5px #cf4949;
+    float: left;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 5%;
+}
+
+.numeros {
+    width: 60%;
+    margin: 5px;
+}
+
+.numeros input {
+    width: 60px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.cero {
+    width: 95%;
+    margin: 5px;
+}
+
+.cero input {
+    width: 61%;
+    height: 50px;
+    margin-top: 10px;
+    border: #002d8d solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.igual {
+    width: 38%;
+    float: right;
+    margin-top: -50px;
+    margin-right: 5px;
+}
+
+.igual input {
+    margin-left: 6%;
+    height: 50px;
+    width: 58px;
+}
+
+.igual input:hover {
+    box-shadow: 2px 2px 2px #df0c0c;
+}
+
+.simbolos {
+    width: 38%;
+    border: #002d8d solid 1px;
+    margin-top: -242px;
+    margin-right: 5px;
+    float: right;
+}
+
+.simbolos input {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}

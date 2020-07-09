@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ethan Muñoz</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cambiocolor.css">
+    <link rel="stylesheet" href="css/perro.css">
+    <link rel="stylesheet" href="css/calculadora.css">
+    <link rel="stylesheet" href="css/degradados.css">
+    <link rel="stylesheet" href="css/mario.css">
+</head>
+
+<body>
+    <div class="menu-responsive">
+        <div class="left"> <img class="imgperfil" src="img/rperfil.jpg" alt="Imagen del perfil"> Ethan Muñoz López</div>
+        <div class="trabajos">
+            <a href="#perroanimado">
+                <div class="habilidad">Perro animado</div>
+            </a>
+            <a href="#calculadora">
+                <div class="habilidad">Calculadora</div>
+            </a>
+            <a href="">
+                <div class="habilidad">Spider-man animado</div>
+            </a>
+            <a href="">
+                <div class="habilidad"></div>
+            </a>
+        </div>
+        <div class="color">
+            <div class="contenedorcambios">
+                <p class="small">¿Demasiado claro?</p>
+                <label class="interruptor" for="checkbox">
+                    <input type="checkbox" id="checkbox">
+                    <div class="botoninterruptor"></div>
+                </label>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="trabajoscontenedorm">
+        <h1 class="titulotrabajo">Mis habilidades</h1>
+        <p class="textoexplicacion">Juegos en Scratch</p>
+        <progress max="100" value="95"></progress>
+
+        <p class="textoexplicacion">HTML5</p>
+
+        <progress max="100" value="95"></progress>
+
+        <p class="textoexplicacion">CSS3</p>
+        <progress max="100" value="85"></progress>
+        <p class="textoexplicacion">Javascript</p>
+        <progress max="100" value="30"></progress>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="trabajoscontenedor">
+        <!----->
+        <div id="perroanimado">
+            <h1 class="titulotrabajo">Perro animado UwU ♥</h1>
+            <div class="contenedor">
+
+                <div class="cara">
+                    <div class="cont-orejas">
+                        <div class="orejas oreja1">
+                            <div class="item"></div>
+                        </div>
+                        <div class="orejas oreja2">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="corazon">
+                        <div class="linea"></div>
+                    </div>
+                    <div class="cont-ojos">
+                        <div class="ojos ojo1">
+                            <div class="ocular"></div>
+                        </div>
+                        <div class="ojos ojo2">
+                            <div class="ocular"></div>
+                        </div>
+                    </div>
+                    <div class="box-nariz">
+                        <div class="nariz"></div>
+                    </div>
+                    <div class="lengua"></div>
+                </div>
+                <div class="cuerpo">
+                    <div class="cuello"></div>
+                    <div class="patas"></div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class="textoexplicacion">
+                Este perrito animado esta hecho con multiples divs que representan cada parte del cuerpo del perro, y estos estan vacíos, pero por medio de CSS se les da color tamaño y animaciones.
+            </p>
+        </div>
+        <!----->
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <div class="trabajoscontenedor">
+        <div id="calculadora">
+            <h1 class="titulotrabajo">Calculadora</h1>
+            <form name="Calculadora">
+                <div class="calcucaja">
+                    <input class="textarea" type="text" name="txtboxnros" value="0" disabled>
+
+                    <div class="numeros">
+                        <input class="boton" type="button" value="1" onclick="ingresarnumero(this.value)">
+                        <input class="boton" type="button" value="2" onclick="ingresarnumero(this.value)">
+                        <input class="boton" type="button" value="3" onclick="ingresarnumero(this.value)">
+                        <input class="boton" type="button" value="4" onclick="ingresarnumero(this.value)">
+                        <input class="boton" type="button" value="5" onclick="ingresarnumero(this.value)">
+                        <input class="boton" type="button" value="6" onclick="ingresarnumero(this.value)">
+                        <input class="boton" type="button" value="7" onclick="ingresarnumero(this.value)">
+                        <input class="boton" type="button" value="8" onclick="ingresarnumero(this.value)">
+                        <input class="boton" type="button" value="9" onclick="ingresarnumero(this.value)">
+                    </div>
+
+                    <div class="cero">
+
+                        <input class="boton" type="button" value="0" onclick="ingresarnumero(this.value)">
+
+                    </div>
+
+                    <div class="simbolos">
+
+                        <input class="boton" type="button" value="+" onclick="ingresaoperacion(this.value)">
+                        <input class="boton" type="button" value="-" onclick="ingresaoperacion(this.value)">
+                        <input class="boton" type="button" value="*" onclick="ingresaoperacion(this.value)">
+                        <input class="boton" type="button" value="^" onclick="ingresaoperacion('**')">
+                        <input class="boton" type="button" value="√" onclick="raiz()">
+                        <input class="boton" type="button" value="." onclick="ingresarnumero(this.value)">
+
+                    </div>
+
+                    <div class="igual">
+
+                        <input class="boton" type="button" value="C" onclick="limpiar()">
+                        <input class="boton" type="button" value=" = " onclick="resultado()">
+
+                    </div>
+
+
+                </div>
+
+            </form>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class="textoexplicacion">
+                Esta calculadora fue la primera que hice, realiza las operaciones en el JS, le doy estilos con CSS y utiliza funciones.
+                <br><br>
+                <a target="_blank" class="enlaces" href="calculadora/calculadora.html">>>>>  Puedes verla completa aquí</a>
+            </p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="trabajoscontenedor degradado">
+        <h1 class="titulotrabajo">Degradados</h1>
+        <br> Sé bastante sobre CSS, por ejemplo degradados.
+        <br><br><br>
+        <a class="degradadolink" href="degradados.html" target="_blank" rel="noopener noreferrer">>>>> Puedes ver más de mis degradados dando click aquí</a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="trabajoscontenedor">
+        <h1 class="titulotrabajo">Mario Bros en Scratch</h1>
+        <img class="mario" id="mario" src="img/Mario2.png" alt="">
+        <iframe class="marioj" src="https://scratch.mit.edu/projects/341242863/embed" allowtransparency="true" width="727" height="603" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <p class="textoexplicacion"><br> Este es un juego de Mario Bros que hice, inspirado en el jeugo de Nintendo. El proyecto es una reinvención de otro similar hecho por Brad Games. El mio lo toma como base y añade nuevas cosas, como los contadores de monedas, hongos entre otros.
+            <br>
+            <br> Presiona "Jugar" y luego la bandera verde para empezar a jugar. <br>
+            <a class="enlacesblancos" href="javascript:establecerVisibilidadImagen('mario', false)">
+                <div class="jugar">
+                    <p> Jugar</p>
+                </div>
+            </a>
+        </p>
+
+        <br/><br/>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--El scrpit invoca al js-->
+    <script src="js/js.js">
+    </script>
+    <script src="js/calculadora.js">
+    </script>
+    <script src="js/mario.js"></script>
+</body>
+
+</html>

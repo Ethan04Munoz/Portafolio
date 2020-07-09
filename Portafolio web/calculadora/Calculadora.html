@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Calculadora</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cambiocolor.css">
+    <link rel="stylesheet" href="../css/perro.css">
+    <link rel="stylesheet" href="../css/calculadora.css">
+    <link rel="stylesheet" href="../css/degradados.css">
+    <link rel="stylesheet" href="../css/mario.css">
+</head>
+
+<body>
+    <form name="Calculadora">
+        <div class="calcucaja">
+            <input class="textarea" type="text" name="txtboxnros" value="0" disabled>
+
+            <div class="numeros">
+                <input class="boton" type="button" value="1" onclick="ingresarnumero(this.value)">
+                <input class="boton" type="button" value="2" onclick="ingresarnumero(this.value)">
+                <input class="boton" type="button" value="3" onclick="ingresarnumero(this.value)">
+                <input class="boton" type="button" value="4" onclick="ingresarnumero(this.value)">
+                <input class="boton" type="button" value="5" onclick="ingresarnumero(this.value)">
+                <input class="boton" type="button" value="6" onclick="ingresarnumero(this.value)">
+                <input class="boton" type="button" value="7" onclick="ingresarnumero(this.value)">
+                <input class="boton" type="button" value="8" onclick="ingresarnumero(this.value)">
+                <input class="boton" type="button" value="9" onclick="ingresarnumero(this.value)">
+            </div>
+
+            <div class="cero">
+
+                <input class="boton" type="button" value="0" onclick="ingresarnumero(this.value)">
+
+            </div>
+
+            <div class="simbolos">
+
+                <input class="boton" type="button" value="+" onclick="ingresaoperacion(this.value)">
+                <input class="boton" type="button" value="-" onclick="ingresaoperacion(this.value)">
+                <input class="boton" type="button" value="*" onclick="ingresaoperacion(this.value)">
+                <input class="boton" type="button" value="^" onclick="ingresaoperacion('**')">
+                <input class="boton" type="button" value="√" onclick="raiz()">
+                <input class="boton" type="button" value="." onclick="ingresarnumero(this.value)">
+
+            </div>
+
+            <div class="igual">
+
+                <input class="boton" type="button" value="C" onclick="limpiar()">
+                <input class="boton" type="button" value=" = " onclick="resultado()">
+
+            </div>
+
+
+        </div>
+
+    </form>
+    <script src="js.js"></script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a target="_blank" class="enlaces titulocentrar" href="../portafolio.html">Ir a la página principal</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+
+</html>

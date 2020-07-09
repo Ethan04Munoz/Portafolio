@@ -1,0 +1,64 @@
+.degradado {
+    background: linear-gradient(35deg, var(--degradado1), var(--degradado2));
+    color: #fff;
+    height: 15rem;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+}
+
+.degradado:hover {
+    background: linear-gradient(220deg, var(--degradado1), var(--degradado2));
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+}
+
+.degradadolink {
+    color: var(--coloresinversos);
+    text-decoration: none;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+}
+
+.degradadolink:hover {
+    color: var(--enlacehover);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+}
+
+.degradadopequeño {
+    color: #fff;
+    height: 15rem;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    float: left;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p1 {
+    background: linear-gradient(35deg, #289770, #788778);
+}
+
+.p2 {
+    background: linear-gradient(35deg, #878211, #745265);
+}
+
+.p3 {
+    background: linear-gradient(35deg, #789879, #788);
+}
+
+.p4 {
+    background: linear-gradient(35deg, #0484, #187741);
+}
+
+.titulocentrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

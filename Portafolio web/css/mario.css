@@ -1,0 +1,48 @@
+.mario {
+    position: absolute;
+    margin-top: 60px;
+    height: 550px;
+    width: 727px;
+}
+
+.marioj {
+    /* float: left;*/
+}
+
+.jugar {
+    width: 4rem;
+    height: 4rem;
+    background: var(--botonjugar);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    margin-top: -80px;
+    border-radius: 25%;
+}
+
+.jugar:hover {
+    background: var(--botonjugarhov);
+    box-shadow: 3px 3px 3px #000303;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+}
+
+.jugar p {
+    color: var(--enlacesblancos);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enlacesblancos {
+    text-decoration: none;
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
