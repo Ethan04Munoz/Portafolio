@@ -1,19 +1,16 @@
 import React from "react";
 import { Parallax } from "react-parallax";
+import Header from "./componentes/Header";
+import './App.css'
 
 function App() {
     return (
         <div className="App">
-            <p>a</p>
-            <p>a</p>
-            <p>a</p>
-            <p>a</p>
-            <p>a</p>
-            <p>a</p>
-            <p>a</p>
-            <p>a</p>
-            <p>a</p>
-            <p>a</p>
+            <div className="contenerSitio">
+            <Header/>
+            <div className="contenedorTextoCentral">
+            <h1>Websites. Webapps. Soluciones web.</h1>
+            </div>
             <Parallax
                 blur={30}
                 bgImage={'img/test/test (3).webp'}
@@ -54,6 +51,7 @@ function App() {
             <p>a</p>
             <p>a</p>
             <p>a</p>
+            </div>
         </div>
     );
 }
