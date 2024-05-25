@@ -1,17 +1,10 @@
 .contenidoParallax{
     position: absolute;
-    width: 100%;
+    width: 50%;
+    margin-left: 25%;
     min-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-.contenidoParallax h1{
-    font-weight: 600;
-}
-
-.contenidoParallax p{
-    font-weight: 400;
 }
