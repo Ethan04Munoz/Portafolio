@@ -1,0 +1,12 @@
+.header{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.header .nombre{
+    text-align: left;
+}
+
+.header .contacto {
+    text-align: right;
+}
