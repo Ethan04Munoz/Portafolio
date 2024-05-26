@@ -45,3 +45,11 @@
 .enlace:hover::after {
     background-color: #3493ff;
 }
+
+#primerProyecto {
+    border-radius: 4vh 4vh 0 0;
+}
+
+#ultimoProyecto {
+    border-radius: 0 0 4vh 4vh;
+}
