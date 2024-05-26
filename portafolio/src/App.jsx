@@ -1,6 +1,6 @@
 import React from "react";
-import { Parallax } from "react-parallax";
 import Header from "./componentes/Header";
+import Parallax from "./componentes/Parallax";
 import './App.css'
 import ContenidoParallax from "./componentes/ContenidoParallax";
 
@@ -13,10 +13,8 @@ function App() {
                     <h1>Websites. Webapps. Soluciones web.</h1>
                 </div>
                 <Parallax
-                    blur={10}
-                    bgImage={'img/test/test (3).webp'}
-                    bgImageAlt="Buscaminas"
-                    strength={-800}
+                    backgroundImage={'img/webp/buscaminas.webp'}
+                    strength={0.8}
                 >
                     <ContenidoParallax
                         titulo="Buscaminas"
@@ -24,15 +22,18 @@ function App() {
                         Fusiona desafío, estilo y rendimiento con animaciones CSS cautivadoras, almacenamiento de récords en localStorage,
                          Web Workers para un juego fluido y una experiencia configurable y responsive.`}
                     />
-                    <div style={{ height: '500px' }} />
+                    <div style={{ height: '500px', borderRadius: '1rem 0 1rem 0' }} />
                 </Parallax>
                 <Parallax
-                    blur={10}
-                    bgImage={'img/test/test (2).webp'}
-                    bgImageAlt="Expense Tracker"
-                    strength={-800}
+                    backgroundImage={'img/webp/expenseTracker.webp'}
+                    strength={0.8}
                 >
-                    <ContenidoParallax titulo="Expense tracker" texto="Un buscaminas" />
+                    <ContenidoParallax 
+                        titulo="Expense tracker" 
+                        texto={`Un sofisticado gestor de gastos e ingresos creado con React que simplifica el control financiero. 
+                        Permite registrar transacciones con facilidad, marcar entradas como recurrentes para un seguimiento automático mensual. 
+                        Ofrece notificaciones visuales atractivas con toast y vistas analíticas claras con gráficos claros.`}
+                    />
                     <div style={{ height: '500px' }} />
                 </Parallax>
                 <div className="contenerTexto">
