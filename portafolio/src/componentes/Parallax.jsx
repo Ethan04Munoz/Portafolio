@@ -5,7 +5,8 @@ const Parallax = ({
     backgroundImage,
     blur = 0,
     darken = 0,
-    children
+    id,
+    children,
 }) => {
     const [offsetY, setOffsetY] = useState(0);
     const parallaxRef = useRef(null);
@@ -67,7 +68,7 @@ const Parallax = ({
     };
 
     return (
-        <div ref={parallaxRef} style={parallaxStyle}>
+        <div ref={parallaxRef} style={parallaxStyle} id={id}>
             <div style={backgroundStyle}></div>
             <div style={overlayStyle}></div>
             <div style={contentStyle}>
