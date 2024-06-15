@@ -30,7 +30,7 @@ function Main() {
                     <div style={{ height: '500px', borderRadius: '1rem 0 1rem 0' }} />
                 </Parallax>
                 <Parallax
-                    backgroundImage={'img/webp/expenseTrackerCut.webp'}
+                    backgroundImage={'img/webp/expenseTracker2.webp'}
                     strength={0.8}
                     blur={10}
                     darken={20}
