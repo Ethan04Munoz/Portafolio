@@ -38,11 +38,10 @@ function Main() {
                 >
                     <ContenidoParallax 
                         titulo="Expense tracker" 
-                        texto={`Un sofisticado gestor de gastos e ingresos creado con React simplifica el control financiero. 
+                        texto={`Un gestor de gastos e ingresos creado con React que simplifica el control financiero. 
                             Permite registrar transacciones fácilmente, marcar entradas como recurrentes y ofrece notificaciones visuales atractivas con toast. 
                             Gracias a CSS3, el diseño es responsive, y almacena información en LocalStorage, garantizando acceso a los datos sin conexión. 
-                            Además, proporciona vistas analíticas claras con gráficos precisos para un seguimiento detallado de la información, almacenada 
-                            de manera local usando LocalStorage.`}
+                            `}
                         enlaceRepositorio="https://github.com/Ethan04Munoz/ExpenseTracker"
                         enlaceSitio="https://ethan04munoz.github.io/ExpenseTracker/"
                     />
