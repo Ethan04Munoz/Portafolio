@@ -1,14 +1,18 @@
 import React from "react";
 import './Header.css';
+import { useSelector } from 'react-redux';
+import translations from '../redux/translations.js';
 
 function Header(props) {
+    const language = useSelector(state => state.language.language);
+
     return (
         <div className="header">
-            <div className="nombre">Ethan</div>
+            <div className="nombre">{translations[language].headerNombre}</div>
             <div></div>
             <div className="contacto">
                 <a className="enlace" href={props.enlace}>
-                    Contactar
+                    {translations[language].headerTextoContacto}
                 </a>
             </div>
         </div>
