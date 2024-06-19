@@ -3,14 +3,18 @@ import Header from "../componentes/Header";
 import Parallax from "../componentes/Parallax";
 import '../App.css'
 import ContenidoParallax from "../componentes/ContenidoParallax";
+import { useSelector } from 'react-redux';
+import translations from '../redux/translations.js'; 
 
 function Main() {
+    const language = useSelector(state => state.language.language); 
+
     return (
         <div className="App">
             <div className="contenerSitio">
                 <Header enlace="#tituloContactar"/>
                 <div className="contenedorTextoCentral">
-                    <h1>Websites. Webapps. Soluciones web.</h1>
+                    <h1>{translations[language].mainTitulo}</h1>
                 </div>
                 <Parallax
                     backgroundImage={'img/webp/buscaminasCut.webp'}
@@ -20,10 +24,8 @@ function Main() {
                     id={'primerProyecto'}
                 >
                     <ContenidoParallax
-                        titulo="Buscaminas"
-                        texto={`Un emocionante buscaminas con una interfaz dinámica construida con React. 
-                        Fusiona desafío, estilo y rendimiento con animaciones CSS cautivadoras, almacenamiento de récords en localStorage, 
-                        Web Workers para un juego fluido y una experiencia configurable y responsive.`}
+                        titulo={translations[language].mainProyecto1Titulo}
+                        texto={translations[language].mainProyecto1Texto}
                         enlaceRepositorio="https://github.com/Ethan04Munoz/Buscaminas"
                         enlaceSitio="https://ethan04munoz.github.io/Buscaminas/"
                     />
@@ -37,11 +39,8 @@ function Main() {
                     id={'ultimoProyecto'}
                 >
                     <ContenidoParallax 
-                        titulo="Expense tracker" 
-                        texto={`Un gestor de gastos e ingresos creado con React que simplifica el control financiero. 
-                            Permite registrar transacciones fácilmente, marcar entradas como recurrentes y ofrece notificaciones visuales atractivas con toast. 
-                            Gracias a CSS3, el diseño es responsive, y almacena información en LocalStorage, garantizando acceso a los datos sin conexión. 
-                            `}
+                        titulo={translations[language].mainProyecto2Titulo}
+                        texto={translations[language].mainProyecto2Texto}
                         enlaceRepositorio="https://github.com/Ethan04Munoz/ExpenseTracker"
                         enlaceSitio="https://ethan04munoz.github.io/ExpenseTracker/"
                     />
@@ -49,12 +48,12 @@ function Main() {
                 </Parallax>
                 <div className="contenerTexto">
                     <p>
-                        Desarrollador Full Stack enfocado en React, CSS3, Node.js, Express.js y consumo de APIs. Apasionado por crear interfaces atractivas y backends robustos. Comprometido con buenas prácticas, escalabilidad y soluciones innovadoras que aporten valor.
+                    {translations[language].mainTextoPresentacion}
                     </p>
                 </div>
                 <div className="contenerTexto">
                     <div className="tituloContenido" id="tituloContactar">
-                        Contactar
+                    {translations[language].mainTextoContacto}
                     </div>
                     <p><a className="enlace" href="https://github.com/Ethan04Munoz">Github</a></p>
                     <p><a className="enlace" href="https://www.linkedin.com/in/ethanmuñoz/">LinkedIn</a></p>
