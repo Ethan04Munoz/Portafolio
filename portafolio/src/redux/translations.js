@@ -4,7 +4,7 @@ const translations = {
         headerNombre: `Ethan`,
     },
     en: {
-        headerTextoContacto: `Contact`,
+        headerTextoContacto: `Contact now`,
         headerNombre: `Ethan`,
     },
 }
