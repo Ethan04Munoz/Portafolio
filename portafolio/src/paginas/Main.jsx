@@ -37,7 +37,13 @@ AA8239
                     enlaceSitio="https://ethan04munoz.github.io/ExpenseTracker/"
                     baseColor={"#943156"}
                 />
-                
+                <ParallaxColor
+                    titulo={translations[language].mainProyecto3Titulo}
+                    texto={translations[language].mainProyecto3Texto}
+                    enlaceRepositorio="https://github.com/Ethan04Munoz/SaveToImage-Webpage"
+                    enlaceSitio="https://ethan04munoz.github.io/SaveToImage-Webpage/"
+                    baseColor={"#AA8239"}
+                />
                 <div className="contenerTexto">
                     <p>
                         {translations[language].mainTextoPresentacion}
