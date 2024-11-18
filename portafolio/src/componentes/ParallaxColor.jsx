@@ -36,9 +36,9 @@ const ParallaxColor = ({ titulo, texto, enlaceRepositorio, enlaceSitio, baseColo
                         <p className="tituloContenido">{titulo}</p>
                         <p>{texto}</p>
                         <div className="gridEnlacesParallax">
-                            <a className="enlace" href={enlaceSitio}>{translations[language].contenidoParallaxLinkSitio}</a>
+                            <a className="enlace enlaceWhite" href={enlaceSitio}>{translations[language].contenidoParallaxLinkSitio}</a>
                             <div></div>
-                            <a className="enlace" href={enlaceRepositorio}>{translations[language].contenidoParallaxLinkRepositorio}</a>
+                            <a className="enlace enlaceWhite" href={enlaceRepositorio}>{translations[language].contenidoParallaxLinkRepositorio}</a>
                         </div>
                     </div>
                 </div>
