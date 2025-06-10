@@ -16,7 +16,12 @@ const translations = {
                             Permite descargar imágenes directamente desde sitios web y guardarlas en tu formato preferido, como PNG o JPEG, con solo un clic. 
                             La extensión cuenta con una interfaz fácil de usar creada con HTML5 y CSS3, garantizando una experiencia fluida. 
                             Utiliza el almacenamiento del navegador para un acceso rápido a tus preferencias e integra diálogos de guardado nativos para descargas eficientes.`,
-        mainTextoPresentacion: `Desarrollador Full Stack enfocado en React, CSS3, Node.js, Express.js y consumo de APIs. 
+        mainProyecto4Titulo: `TrackStock`,
+        mainProyecto4Texto: `Una aplicación web Full Stack que permite el seguimiento de precios de acciones en tiempo real, junto con métricas clave como los ratios P/S, P/E y P/B.
+                            Construida con React, CSS3, Python y Flask, utilizando el módulo yFinance basado en la API de Yahoo Finance, y la API de Gemini AI para mejorar
+                            los resultados y ofrecer una mejor experiencia de usuario.`,
+
+        mainTextoPresentacion: `Desarrollador Full Stack enfocado en React, CSS3, Node.js, Express.js, Python, Flask y consumo de APIs. 
                             Apasionado por crear interfaces atractivas y backends robustos. 
                             Comprometido con buenas prácticas, escalabilidad y soluciones innovadoras que aporten valor.`,
         mainTextoContacto: `Contactar`,
@@ -40,7 +45,11 @@ const translations = {
                             It allows you to download images directly from websites and save them in your preferred format, such as PNG or JPEG, with just a click. 
                             The extension features a user-friendly interface built with HTML5 and CSS3, ensuring a seamless experience. 
                             It leverages browser storage for quick access to your preferences and integrates with native save dialogs for efficient downloads.`,
-        mainTextoPresentacion: `Full Stack Developer focused on React, CSS3, Node.js, Express.js and API consumption. 
+        mainProyecto4Titulo: `TrackStock`,
+        mainProyecto4Texto: `A Full Stack Web Application that allows the tracking of stock prices in real-time, along with key metrics like P/S, P/E, and P/B ratios.
+                            Built with React, CSS3, Python and Flask, and getting help from yFinance module, based in Yahoo Finance API, and the Gemini AI API to improve 
+                            results and provide a better user experience. `,
+        mainTextoPresentacion: `Full Stack Developer focused on React, CSS3, Node.js, Express.js, Python, Flask and API consumption. 
                             Passionate about creating attractive interfaces and robust backends. 
                             Committed to best practices, scalability, and innovative solutions that add value.`,
         mainTextoContacto: `Contact`,

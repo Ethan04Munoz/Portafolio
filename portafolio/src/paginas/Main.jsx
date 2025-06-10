@@ -14,6 +14,7 @@ function Main() {
 267158
 943156
 AA8239
+2E4172
 */
 
     return (
@@ -23,6 +24,13 @@ AA8239
                 <div className="contenedorTextoCentral">
                     <h1>{translations[language].mainTitulo}</h1>
                 </div>
+                <ParallaxColor
+                    titulo={translations[language].mainProyecto4Titulo}
+                    texto={translations[language].mainProyecto4Texto}
+                    enlaceRepositorio="https://github.com/Ethan04Munoz/trackStock"
+                    enlaceSitio="https://ethan04munoz.github.io/trackStock/"
+                    baseColor={"#2E4172"}
+                />
                 <ParallaxColor
                         titulo={translations[language].mainProyecto1Titulo}
                         texto={translations[language].mainProyecto1Texto}
